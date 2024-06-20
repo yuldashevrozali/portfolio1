@@ -9,7 +9,9 @@
     width: 700px;
 }
 .hero-links {
+    margin-top: 120px;
     display: flex;
+    margin-left: 70px;
     gap: 15px;
     align-items: center;
 }
