@@ -12,7 +12,7 @@ export default function Header() {
       <a href='./'><img src={logo} alt="logo" /></a>
       </div>    
       <div className="header-menu">
-        <p> <a href='./hero'>About M e</a></p>
+        <p> <a href='./'>About Me</a></p>
         <p><a href='./skills'>Skills</a></p>
         <p><a href='./project'>Project</a></p>
         <p><a href='./contact'>Contact me</a></p>

@@ -10,7 +10,7 @@ export default function Hero() {
     return (
         <div className="hero">
             <div className="hero-left">
-                <h1>Hello I’am <span>Evren Shah. Frontend</span> Developer Based In <span>India.</span></h1>
+                <h1>Hello I’am <span>Yuldashev Ro'zali. Frontend</span> Developer Based In <span>Uzbekistan.</span></h1>
                 <p>I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.</p>
                 <div className="hero-links">
                     <button><img width={22} src={telegram} alt="telegram" /></button>
