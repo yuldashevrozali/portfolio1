@@ -15,7 +15,7 @@ export default function Header() {
         <p> <a href='./'>About Me</a></p>
         <p><a href='./skills'>Skills</a></p>
         <p><a href='./project'>Project</a></p>
-        <p><a href='./contact'>Contact me</a></p>
+        {/* <p><a href='./contact'>Contact me</a></p> */}
       </div>
       <div className="resume">
         <a href={resume} download="resume.pdf">
