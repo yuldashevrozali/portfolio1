@@ -7,22 +7,20 @@ import Projects from './components/projects/index.jsx'
 // import Contact from './components/contact/index.jsx'
 
 function App() {
-
   return (
     <>
-     <Header />
-     <BrowserRouter>
-     <Routes>
-     <Route path='./' element = {<Hero />} ></Route>
-     <Route path='./skills' element = {<Skills />} ></Route> 
-     <Route path='./project' element = {<Projects />} ></Route>
-     {/* <Route path='/contact' element = {<Contact />} ></Route> */}
-     </Routes>
-      
-     </BrowserRouter>
-     
+      <Header />
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Hero />} />
+          <Route path='/skills' element={<Skills />} />
+          <Route path='/projects' element={<Projects />} />
+          {/* <Route path='/contact' element={<Contact />} /> */}
+        </Routes>
+      </BrowserRouter>
     </>
-  )
+  );
 }
+
 
 export default App

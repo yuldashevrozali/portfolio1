@@ -5,17 +5,18 @@ import resume from '../../assets/resume.pdf'
 import './index.css'
 
 export default function Header() {
-
   return (
     <div className='portfolio-header'>
       <div className="logo">
-      <a href='./'><img src={logo} alt="logo" /></a>
+        <a href='/'>
+          <img src={logo} alt="logo" />
+        </a>
       </div>    
       <div className="header-menu">
-        <p> <a href='./'>About Me</a></p>
-        <p><a href='./skills'>Skills</a></p>
-        <p><a href='./project'>Project</a></p>
-        {/* <p><a href='./contact'>Contact me</a></p> */}
+        <p><a href='/'>About Me</a></p>
+        <p><a href='/skills'>Skills</a></p>
+        <p><a href='/projects'>Projects</a></p>
+        {/* <p><a href='/contact'>Contact me</a></p> */}
       </div>
       <div className="resume">
         <a href={resume} download="resume.pdf">
@@ -27,3 +28,4 @@ export default function Header() {
     </div>
   );
 }
+
