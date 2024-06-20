@@ -14,7 +14,7 @@ export default function Header() {
       </div>    
       <div className="header-menu">
         <p><a href='/'>About Me</a></p>
-        <p><a href='/skills'>Skills</a></p>
+        <p><a href='/skills1'>Skills</a></p>
         <p><a href='/projects'>Projects</a></p>
         {/* <p><a href='/contact'>Contact me</a></p> */}
       </div>
