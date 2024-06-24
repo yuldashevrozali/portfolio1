@@ -16,7 +16,7 @@ export default function Hero() {
                     <button><a href='https://t.me/yuldashev_frontend'><img width={22} src={telegram} alt="telegram" /></a></button>
                     <button><a href='https://github.com/yuldashevrozali'><img width={32} src={meta} alt="meta" /></a></button>
                     <button><a href='https://github.com/yuldashevrozali'><img width={22} src={github} alt="github" /></a></button>
-                    <button><a href='www.linkedin.com/in/ro-zalibek-yuldashev-733103315'><img width={32} src={facebook} alt="facebook" /></a></button>
+                    <button><a href='https://www.linkedin.com/in/ro-zalibek-yuldashev-733103315'><img width={32} src={facebook} alt="facebook" /></a></button>
                 </div>
             </div>
             <div className="hero-right">

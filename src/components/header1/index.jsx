@@ -11,10 +11,10 @@ export default function Header() {
         <a href='/'>
           <img src={logo} alt="logo" />
         </a>
-      </div>    
+      </div>
       <div className="header-menu">
         <p><a href='/'>About Me</a></p>
-        <p><a href='/skills1'>Skills</a></p>
+        <p><a href='/skills'>Skills</a></p>
         <p><a href='/projects'>Projects</a></p>
         {/* <p><a href='/contact'>Contact me</a></p> */}
       </div>
@@ -24,6 +24,16 @@ export default function Header() {
             Resume <img src={download} alt="download" />
           </button>
         </a>
+      </div>
+      <div className="bar">
+        <div class="dropdown">
+          <button class="dropbtn">Dropdown</button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
       </div>
     </div>
   );

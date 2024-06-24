@@ -6,6 +6,10 @@
     color: white;
     padding-top: 25px;
   }
+
+  .projects-container h1{
+    margin-bottom: 65px;
+  }
   
   .project-image-container {
     position: relative;
