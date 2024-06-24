@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../../assets/logo.svg';
 import download from '../../assets/download.svg';
+import bar from '../../assets/bar.svg';
 import resume from '../../assets/resume.pdf'
 import './index.css'
 
@@ -27,11 +28,11 @@ export default function Header() {
       </div>
       <div className="bar">
         <div class="dropdown">
-          <button class="dropbtn">Dropdown</button>
+          <button class="dropbtn"><img src={bar} alt="" /></button>
           <div class="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
+            <a href="/">About Me</a>
+            <a href="/skills">Skills</a>
+            <a href="/projects">Projects</a>
           </div>
         </div>
       </div>
